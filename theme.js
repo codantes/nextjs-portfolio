@@ -1,5 +1,6 @@
 import {extendTheme} from '@chakra-ui/react';
 import { TextStyle as Text } from './styles/components/TextComponent';
+import {ButtonStyle as Button} from './styles/components/ButtonComponent';
 
 const colors = {
     primaryLight : 'rgb(221, 239, 169)',
@@ -10,7 +11,8 @@ const colors = {
 }
 
 const components = {
-    Text
+    Text,
+    Button
 }
 
 const theme = extendTheme({colors, components})

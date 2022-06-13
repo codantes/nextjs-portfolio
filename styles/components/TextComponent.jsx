@@ -18,7 +18,7 @@ export const TextStyle = {
 
         para : {
             color : 'primaryLight',
-            textAlign : 'center',
+            textAlign : ['center', 'center', 'left', 'left' ],
             fontSize : ['18px', '18px', '20px', '20px'],
             textAlign : 'center'
         }
