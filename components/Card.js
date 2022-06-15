@@ -74,6 +74,7 @@ const Card = ({image, name, about, techStack, site, git}) => {
             {techStack.map(tech => {
               return (
                 <Tag
+                key={tech}
                 m='0.5rem'
                 bg='secondaryLight'
                 >
