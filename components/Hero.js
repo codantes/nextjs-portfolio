@@ -19,8 +19,7 @@ const Hero = () => {
                 opacity : 1
             }}
             transition={{
-                staggeredChilren : 0.3,
-                delayChildren : 0.5
+                duration : 0.5
             }}
             >
                 <Text
@@ -62,8 +61,7 @@ const Hero = () => {
                 opacity : 1
             }}
             transition={{
-                staggeredChilren : 0.3,
-                delayChildren : 0.3
+                duration : 0.5
             }}
                 />
             </GridItem>

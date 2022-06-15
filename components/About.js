@@ -88,6 +88,7 @@ const About = () => {
             <GridItem
             gridColumnStart={['1', '1', '2', '2']}
             as={motion.div}
+            
             initial={{
                 opacity : 0
             }}
@@ -101,9 +102,11 @@ const About = () => {
             >
                 <Grid
                 gridTemplateColumns={['repeat(2, 1fr)', 'repeat(2, 1fr)', 'repeat(2, 1fr)', 'repeat(2, 1fr)']}
+                alignItems='center'
+                justifyContent='center'
                 gap='1rem'
                 w='70%'
-                m='auto'
+                mx='auto'
                 >
                 <GridItem
                 gridColumn='1/ span 2'
