@@ -11,6 +11,17 @@ const Contact = () => {
         alignItems='center'
         justifyContent='center'
         m='auto'
+        as={motion.div}
+        initial={{
+            opacity : 0
+        }}
+        whileInView={{
+            opacity : 1
+        }}
+        transition={{
+            staggeredChilren : 0.3,
+            delayChildren : 0.5
+        }}
         >
             <GridItem
             colSpan={[2, 2, 4, 4]}
