@@ -6,7 +6,7 @@ const Contact = () => {
     return ( 
         <Grid
         spacing='4rem'
-        w={['60%', '60%', '50%', '50%']}
+        w={['80%', '60%', '50%', '50%']}
         gridTemplateColumns={['repeat(2,1fr)', 'repeat(2,1fr)', 'repeat(4,1fr)', 'repeat(4,1fr)']}
         alignItems='center'
         justifyContent='center'
@@ -36,7 +36,9 @@ const Contact = () => {
             <GridItem
             m='auto'
             >
-                <Link>
+                <Link
+                href='https://twitter.com/mildlycoder'
+                >
                 <Button
                 my='1rem'
                 bgGradient='linear(to-r, primaryLight, secondaryLight)'
@@ -54,7 +56,9 @@ const Contact = () => {
             <GridItem
             m='auto'
             >
-                <Link>
+                <Link
+                href='https://www.linkedin.com/in/pranav-kumar-311574162/'
+                >
                 <Button
                 my='1rem'
                 bgGradient='linear(to-r, primaryLight, secondaryLight)'
@@ -71,6 +75,7 @@ const Contact = () => {
 
             <GridItem
             m='auto'
+            href='mailto:pranavismic@gmail.com'
             >
                 <Link>
                 <Button
@@ -90,7 +95,9 @@ const Contact = () => {
             <GridItem
             m='auto'
             >
-                <Link>
+                <Link
+                href='https://www.github.com/codantes/'
+                >
                 <Button
                 my='1rem'
                 bgGradient='linear(to-r, primaryLight, secondaryLight)'

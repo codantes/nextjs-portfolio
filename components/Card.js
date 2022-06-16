@@ -20,7 +20,7 @@ const Card = ({image, name, about, techStack, site, git}) => {
     borderRadius={12}
     overflow='hidden'
     paddingBottom='0.5rem'
-    bgGradient='linear(to-r, primaryLight, secondaryLight)'
+    bgColor='whitesmoke'
     >
       <Image 
       w={['280px', '300px', '300px', '300px']}
@@ -47,14 +47,21 @@ const Card = ({image, name, about, techStack, site, git}) => {
       >
       <Button
       my='0.5rem'
+      bgColor='gray.300'
       onClick={onOpen}
       >
         Show more
       </Button>
       </Flex>
-      <Modal isOpen={isOpen} onClose={onClose}>
+      <Modal 
+      isOpen={isOpen} 
+      onClose={onClose}
+      
+      >
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent
+        w='320px'
+        >
           <ModalHeader>{name}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>

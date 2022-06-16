@@ -38,7 +38,7 @@ const Projects = () => {
                 image='/cointrail.png'
                 about='Uses 3rd party API to track the top 10 coins in the market. Explains common cryptocurrency terminologies to get started with trading cryptocurrencies'
                 techStack={['Reactjs', 'CSS3', 'React Hooks', '3rd Party API']}
-                site='cointrail.netlify.app'
+                site='https://cointrail.netlify.app/'
                 git='https://github.com/codantes/crypto-tracking-webapp'
                 />
             </GridItem>
@@ -51,7 +51,7 @@ const Projects = () => {
                 image='/strength.png'
                 about='Recommends exercises based on your equipment preference and fitness level with proper guidance.Made for beginners and intermediates to make their workouts easier.'
                 techStack={['Reactjs', 'CSS3', 'React Hooks']}
-                site='strength-webapp.netlify.app'
+                site='https://strength-webapp.netlify.app'
                 git='https://github.com/codantes/workout-app'
 
                 />
@@ -65,7 +65,7 @@ const Projects = () => {
                 image='/sneaker.png'
                 about='A product page for your sneakers, includes an image slider, a cart and a checkout box'
                 techStack={['Reactjs', 'CSS3', 'React Hooks', 'Redux']}
-                site='sneaker-webapp.netlify.app'
+                site='https://sneaker-webapp.netlify.app'
                 git='https://github.com/codantes/ecom-product-page'
                 />
             </GridItem>
